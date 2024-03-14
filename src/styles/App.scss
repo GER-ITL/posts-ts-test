@@ -1,0 +1,21 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+body {
+	background-color: #303030;
+	color: #e6e6fa;
+	a {
+		color: #e6e6fa;
+		text-decoration: none;
+		transition: 0.5s all;
+	}
+	a:active {
+		color: rgb(6, 154, 50);
+	}
+}
+
+h2 {
+	text-transform: uppercase;
+}

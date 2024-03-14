@@ -1,0 +1,29 @@
+.wrapper {
+	margin-top: 10rem;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.posts {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	li {
+		list-style-type: none;
+		line-height: 30px;
+		text-transform: uppercase;
+		margin-inline: 50px;
+	}
+	button {
+		cursor: pointer;
+		padding: 10px 20px;
+		border-radius: 5px;
+		border: none;
+		outline: none;
+		background-color: #e6e6fa;
+		margin: 5px;
+	}
+}
